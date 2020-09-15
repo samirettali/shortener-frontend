@@ -13,6 +13,7 @@ class ShortenerTable extends React.Component {
             className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
             href={backend + url.id}
             target="_blank"
+            rel="noopener noreferrer"
             hover="ciao"
           >
             {backend + url.id}
@@ -25,6 +26,7 @@ class ShortenerTable extends React.Component {
             className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
             href={url.url}
             target="_blank"
+            rel="noopener noreferrer"
           >
             {url.url}
           </a>
