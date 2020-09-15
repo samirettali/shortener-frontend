@@ -4,7 +4,7 @@ import App from './App.js';
 import './assets/main.css';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost/api';
+axios.defaults.baseURL = 'http://localhost:3000/api';
 
 axios.interceptors.request.use(
   config => {
