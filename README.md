@@ -5,7 +5,7 @@ backend](https://github.com/samirettali/shortener-backend) that I wrote. It uses
 React and TailwindCSS.
 
 # Login
-![](images/login.png)
+![](screenshots/login.png)
 
 # Dashboard
-![](images/dashboard.png)
+![](screenshots/dashboard.png)
